@@ -107,7 +107,6 @@ function App() {
                         <Routes>
                             <Route path="/" element={<ProductListingPage assets={deliveryAPISearchImages} imsToken={imsToken} setDeliveryAPISearchResult={setDeliveryAPISearchResult} />} />
                             <Route path="/product-details/:assetId" element={<ProductDetailsPage />} />
-                            <Route path="/asset-metadata" element={<RequestAssetMetadataForm deliveryAPIImageMetadata={deliveryAPIImageMetadata} setDeliveryAPIImageMetadata={setDeliveryAPIImageMetadata} imsToken={imsToken} />} />
                             <Route path="/ims-token" element={<ImsTokenForm imsToken={imsToken} setImsToken={setImsToken} />} />
                         </Routes>
                     </Grid>
