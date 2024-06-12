@@ -8,7 +8,6 @@ import { fetchAssets } from "./actions/api";
 import { useAppDispatch, useAppSelector } from "./redux/redux-hooks";
 import { imsActions } from "./store/ims-actions";
 import TopNav from "./components/structure/top-nav";
-import RequestAssetMetadataForm from "./pages/requestAssetMetadataForm";
 import ImsTokenForm from "./pages/ims-token-form";
 import ProductDetailsPage from "./pages/product-details-page";
 import ProductListingPage from "./pages/product-listing-page";
