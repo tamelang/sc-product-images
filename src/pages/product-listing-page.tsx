@@ -44,7 +44,7 @@ const ProductListingPage: FC<Props> = (props: Props) => {
     const classes = useStyles();
     const { assets, imsToken, setDeliveryAPISearchResult } = props;
     const [imageTransformation, setImageTransformation] = useState(ImageTransformations.CENTER);
-    const [backgroundColor, setBackgroundColor] = useState(Colors.STEELCASE_GREY);
+    const [backgroundColor, setBackgroundColor] = useState(Colors.WHITE);
 
     return (
         <div className={classes.mainContent}>

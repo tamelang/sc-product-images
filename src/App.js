@@ -9,7 +9,6 @@ import { useAppDispatch, useAppSelector } from "./redux/redux-hooks";
 import { imsActions } from "./store/ims-actions";
 import TopNav from "./components/structure/top-nav";
 import ImsTokenForm from "./pages/ims-token-form";
-import ProductDetailsPage from "./pages/product-details-page";
 import ProductListingPage from "./pages/product-listing-page";
 import HeaderImage from './static/header.png'
 import './App.css';
@@ -41,7 +40,6 @@ function App() {
     const classes = useStyles();
     const imsToken = useAppSelector(state => state.imsToken).imsToken;
     const dispatch = useAppDispatch();
-    const [deliveryAPIImageMetadata, setDeliveryAPIImageMetadata] = useState({});
     const [deliveryAPISearchResult, setDeliveryAPISearchResult] = useState([]);
     const [deliveryAPISearchImages, setDeliveryAPISearchImages] = useState([]);
 
@@ -106,7 +104,6 @@ function App() {
                     <Grid item>
                         <Routes>
                             <Route path="/" element={<ProductListingPage assets={deliveryAPISearchImages} imsToken={imsToken} setDeliveryAPISearchResult={setDeliveryAPISearchResult} />} />
-                            <Route path="/product-details/:assetId" element={<ProductDetailsPage />} />
                             <Route path="/ims-token" element={<ImsTokenForm imsToken={imsToken} setImsToken={setImsToken} />} />
                         </Routes>
                     </Grid>
