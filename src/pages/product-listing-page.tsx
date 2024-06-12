@@ -1,11 +1,11 @@
 import React, {FC, useState} from "react";
 import { createStyles, makeStyles } from "@mui/styles";
 import { Grid } from "@mui/material";
-import { DeliveryAPIImageData } from "../models/deliveryAPIImageData";
-import { ImageTransformations } from "../enums/imageTransformations";
+import { DeliveryApiImageData } from "../models/delivery-api-Image-data";
+import { ImageTransformations } from "../enums/image-transformations";
 import ProductCard from "../components/content/product-card";
 import Separator from "../components/content/separator";
-import ProductSearchForm from "../components/content/productSearchForm";
+import ProductSearchForm from "../components/content/product-search-form";
 import {Colors} from "../enums/colors";
 
 const useStyles = makeStyles(() =>
@@ -35,7 +35,7 @@ const useStyles = makeStyles(() =>
 );
 
 type Props = {
-    assets: DeliveryAPIImageData[];
+    assets: DeliveryApiImageData[];
     imsToken: string;
     setDeliveryAPISearchResult: () => void;
 }

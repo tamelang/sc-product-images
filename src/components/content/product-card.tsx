@@ -3,9 +3,9 @@ import { Button, Card, CardContent, Grid } from "@mui/material";
 import { createStyles, makeStyles } from "@mui/styles";
 import { Fonts } from "../../enums/fonts";
 import { Link } from "react-router-dom";
-import DarkLabel from "./labels/darkLabel";
-import PreviewImage from "./previewImage";
-import ProductCardOptions from "./productCardOptions";
+import DarkLabel from "./labels/dark-label";
+import PreviewImage from "./preview-image";
+import ProductCardOptions from "./product-card-options";
 
 
 const useStyles = makeStyles(() =>

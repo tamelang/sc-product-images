@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import {ImageTransformations} from "../../enums/imageTransformations";
+import {ImageTransformations} from "../../enums/image-transformations";
 
 type Props = {
     src: string;

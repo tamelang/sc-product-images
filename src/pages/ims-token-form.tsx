@@ -3,7 +3,7 @@ import { createStyles, makeStyles } from "@mui/styles";
 import { Grid, TextField, Button } from "@mui/material";
 import { Fonts } from "../enums/fonts";
 import { Formik, Form, Field, ErrorMessage } from 'formik';
-import DarkLabel from "../components/content/labels/darkLabel";
+import DarkLabel from "../components/content/labels/dark-label";
 import * as Yup from 'yup';
 
 const useStyles = makeStyles(() =>

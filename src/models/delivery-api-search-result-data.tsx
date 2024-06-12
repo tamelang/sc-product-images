@@ -1,4 +1,4 @@
-export type DeliveryAPISearchResultData = {
+export type DeliveryApiSearchResultData = {
     hits: SearchResults
 }
 

@@ -18,11 +18,11 @@ import {
     TableRow,
     MenuItem
 } from "@mui/material";
-import DarkLabel from "../components/content/labels/darkLabel";
-import PreviewImage from "../components/content/previewImage";
+import DarkLabel from "../components/content/labels/dark-label";
+import PreviewImage from "../components/content/preview-image";
 import { Colors } from "../enums/colors";
 import { useLocation } from "react-router-dom";
-import { ImageTransformations } from "../enums/imageTransformations";
+import { ImageTransformations } from "../enums/image-transformations";
 import { Image as ImageIcon, PanTool, SecurityOutlined } from "@mui/icons-material";
 
 const useStyles = makeStyles(() =>
