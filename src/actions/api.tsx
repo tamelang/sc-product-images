@@ -1,6 +1,6 @@
 import { DeliveryApiSearchResultData } from "../models/delivery-api-search-result-data";
 
-const HOST_ID = "p129105-e1334955";
+const HOST_ID = "p129105-e1259905";
 
 export type FetchAssetParams = {
     assetId: string;
